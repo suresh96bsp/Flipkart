@@ -131,7 +131,7 @@ for (let n = 2; n <= 100; n++) {
         console.log(n + " is not a prime number");
     }
 }
-
+//clone example today
 
 
 
