@@ -10,11 +10,11 @@ test ('Frames handling',async({page})=>{
    await page.waitForTimeout(2000);
 
 })
-
-//Nested Frames
-import { test } from '@playwright/test';
-test ('Nested Frames handling',async({page})=>{
-   await page.goto('https://www.hyrtutorials.com/p/frames-practice.html');
+//new comment added
+// //Nested Frames
+// import { test } from '@playwright/test';
+// test ('Nested Frames handling',async({page})=>{
+//    await page.goto('https://www.hyrtutorials.com/p/frames-practice.html');
    
 
 
