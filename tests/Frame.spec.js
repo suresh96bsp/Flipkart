@@ -8,9 +8,11 @@ test ('Frames handling',async({page})=>{
    const frame2 = await page.frameLocator('//H2[text()="Iframe 2"]/following-sibling::iframe');
    await frame2.locator('//a[@href="https://www.tutorialspoint.com"]').click();
    await page.waitForTimeout(2000);
+   await page.waitForTimeout(2000);
+   await page.waitForTimeout(2000);
 
 })
-//new comment added
+//new comment a
 // //Nested Frames
 // import { test } from '@playwright/test';
 // test ('Nested Frames handling',async({page})=>{
