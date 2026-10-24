@@ -9,7 +9,7 @@ test ('Frames handling',async({page})=>{
    await frame2.locator('//a[@href="https://www.tutorialspoint.com"]').click();
    await page.waitForTimeout(2000);
    await page.waitForTimeout(2000);
-   await page.waitForTimeout(2000);
+   //await page.waitForTimeout(2000);
 
 })
 //new comment a
